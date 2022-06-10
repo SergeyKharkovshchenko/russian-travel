@@ -6,12 +6,14 @@
     gap: 24px;
     width: auto;
     height: 18px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:984px) {
     .footer {
         margin: 0 24px 24px 24px;
         height: 16px;
+
     }
 }
 
