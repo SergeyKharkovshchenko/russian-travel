@@ -1,0 +1,19 @@
+
+
+.place__website {
+
+    font-family: 'Inter';
+font-style: normal;
+
+border: 1px solid red;
+
+margin: 0;
+padding: 0;
+
+align-self: end;
+
+max-width: fit-content;
+
+
+}
+

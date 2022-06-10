@@ -1,0 +1,29 @@
+.header__lang-link {
+    color: white;
+    align-self: center;
+    justify-self: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.header__lang-link:last-child{
+    text-decoration: none;
+}
+
+.header__lang-link:before{
+    text-decoration: none;
+    color: green;
+}
+
+
+@media screen and (max-width:568px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+}
