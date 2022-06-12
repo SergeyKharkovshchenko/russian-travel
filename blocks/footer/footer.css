@@ -4,20 +4,18 @@
     margin: 0 48px 0 48px;
     padding: 0;
     gap: 24px;
-    width: auto;
+    Width: auto;
     height: 18px;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width:984px) {
     .footer {
         margin: 0 24px 24px 24px;
         height: 16px;
-
     }
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width:650px) {
     .footer {
         flex-direction: column;
         align-self: start;

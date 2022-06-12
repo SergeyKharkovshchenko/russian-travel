@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width:1240px) {
+    .content__section {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width:1140px) {
     .content__section {
         padding: 0;

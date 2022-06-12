@@ -2,21 +2,31 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 148px;
+    /* margin: 0 148px; */
+    margin: 0 auto;
     color: white;
     max-width: 928px;
     padding: 0;
 }
 
 
-@media screen and (max-width:1140px) {
+@media screen and (max-width:984px) {
     .lead {
-        margin: 0 48px;
+        max-width: 768px;
+        margin: 0 auto;
     }
 }
 
-@media screen and (max-width:984px) {
+@media screen and (max-width:800px) {
     .lead {
-        margin: 0;
+        max-width: 540px;
+        
+    }
+}
+
+
+@media screen and (max-width:568px) {
+    .lead {
+        max-width: 320px;
     }
 }

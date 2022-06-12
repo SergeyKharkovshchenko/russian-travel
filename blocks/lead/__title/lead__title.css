@@ -3,17 +3,37 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    width: 720px;
-    height: 200px;
-    margin: 0 auto 32px auto;
+    max-width: 720px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:800px) {
+    .lead__title {
+        max-width: 520px;
+        font-size:67px;
+        line-height: 71px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 288px;
+        max-height: 88px;
+        /* margin: 0 auto; */
+
+    }
 }
 
 @media screen and (max-width:568px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
+        max-height: 88px;
+        /* margin: 0 auto; */
 
     }
 }
