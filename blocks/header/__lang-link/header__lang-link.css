@@ -1,5 +1,4 @@
 .header__lang-link {
-    font-family: "Inter", arial, sans-serif;
     color: white;
     align-self: center;
     justify-self: center;
@@ -11,11 +10,11 @@
     text-align: right;
 }
 
-.header__lang-link:last-child{
+.header__lang-link:last-child {
     text-decoration: none;
 }
 
-.header__lang-link:before{
+.header__lang-link:before {
     text-decoration: none;
     color: green;
 }
@@ -25,6 +24,5 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-
     }
 }
