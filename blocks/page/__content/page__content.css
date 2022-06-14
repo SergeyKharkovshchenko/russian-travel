@@ -1,6 +1,5 @@
 .page__content {
-    margin-top: 56px;
-    margin-bottom: 92px;
+    margin: 56px auto 92px auto;
     width: 100%;
 }
 

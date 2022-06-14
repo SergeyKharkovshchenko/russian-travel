@@ -10,9 +10,3 @@
         padding: 0;
     }
 }
-
-@media screen and (max-width:1140px) {
-    .content__section {
-        padding: 0;
-    }
-}

@@ -1,0 +1,10 @@
+.place__paragraph {
+    margin: 0 0 26px 0;
+}
+
+
+@media screen and (max-width:568px) {
+    .place__paragraph {
+        margin: 0 0 25px 0;
+    }
+}

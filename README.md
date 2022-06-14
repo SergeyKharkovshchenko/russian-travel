@@ -7,4 +7,8 @@
 
 https://sergeykharkovshchenko.github.io/russian-travel/
 
++ Использованы технологии:
+  + grid
+  + flex
+
 

@@ -3,20 +3,17 @@
     background-color: #2a2c2f;
     color: #ffffff;
     font-weight: 400;
-    width: min-content;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1280px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 28px 0 24px;
+    padding: 28px 0 24px 0;
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width:768px) {
     .page {
-        min-width: 320px;
-        max-width: 1280px;
-        padding: 10px;
+        padding: 16px 0 24px 0;
     }
 }

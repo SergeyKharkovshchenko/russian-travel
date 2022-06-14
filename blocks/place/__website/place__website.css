@@ -1,8 +1,12 @@
 .place__website {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     margin: 0;
     padding: 0;
     align-self: end;
     max-width: fit-content;
+}
+
+.place__website:hover {
+    opacity: 0.8;
 }
