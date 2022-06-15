@@ -3,29 +3,35 @@
     max-width: 984px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .lead__image {
         max-height: 580px;
         max-width: 928px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .lead__image {
         max-height: 480px;
         max-width: 768px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:785px) {
     .lead__image {
-        min-width: 320px;
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .lead__image {
+        max-width: 320px;
     }
 }
 
 @media screen and (max-width:350px) {
     .lead__image {
         min-height: 200px;
-        min-width: 300px;
+        max-width: 300px;
     }
 }

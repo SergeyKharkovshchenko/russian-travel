@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: center;
     margin: 0 auto;
     color: white;
     max-width: 984px;
@@ -9,19 +10,19 @@
 }
 
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .lead {
         max-width: 928px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .lead {
-        max-width: 748px;
+        max-width: 768px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .lead {
         width: 320px;
     }

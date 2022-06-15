@@ -2,8 +2,12 @@
     margin: 0 0 26px 0;
 }
 
+.place__paragraph:last-child {
+    margin: 0;
+}
 
-@media screen and (max-width:568px) {
+
+@media screen and (max-width:767px) {
     .place__paragraph {
         margin: 0 0 25px 0;
     }
