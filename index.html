@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="author" content="Сергей Харьковщенко" />
   <meta name="keywords" content="проект" />
   <meta name="description" content="Проект #2" />
@@ -15,7 +16,7 @@
 
   <!-- блок header -->
   <header class="header">
-    <img class="header__image" src="./images/header-logo.svg" alt="картинка лого">
+    <img class="header__logo" src="./images/header-logo.svg" alt="картинка лого">
     <ul class="header__lang-links">
       <li>
         <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
@@ -118,7 +119,11 @@
           <h3 class="place__url-heading">URL</h3>
           <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
         </div>
-        <img src="./images/place-kosa.jpg" class="place__image" alt="Коса">
+
+        <div class="place__images">
+        <img src="./images/place-kosa.jpg"  alt="Коса"  class="place__image">
+        </div>
+
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с
@@ -141,7 +146,9 @@
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National
             Geographic</a>
         </div>
+        <div class="place__images">
         <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский">
+        </div>
         <div class="place__paragraphs">
           Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
           тайга, а на север — Л
@@ -161,7 +168,9 @@
           <h3 class="place__url-heading">URL</h3>
           <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
         </div>
+        <div class="place__images">
         <img src="./images/place-altai.jpg" class="place__image" alt="алтай">
+        </div>
         <div class="place__paragraphs">
           Алтай — одно из красивейших мест в России.
           В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -179,7 +188,9 @@
           <h3 class="place__url-heading">URL</h3>
           <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
         </div>
+        <div class="place__images">
         <img src="./images/place-winter-baikal.jpg" class="place__image" alt="байкал">
+        </div>
         <div class="place__paragraphs">
           Всем известен Байкал как крупнейшее озеро
           в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -196,7 +207,9 @@
           <h3 class="place__url-heading">URL</h3>
           <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
         </div>
+        <div class="place__images">
         <img src="./images/place-karelia.jpg" class="place__image" alt="байкал">
+        </div>
         <div class="place__paragraphs">
           Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее
           Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых

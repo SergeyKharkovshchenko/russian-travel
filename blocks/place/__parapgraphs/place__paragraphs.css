@@ -6,6 +6,9 @@
     max-width: 484px;
     width: fit-content;
 
+    /* display: flex;
+    flex-direction: column; */
+    
 }
 
 @media screen and (max-width:1279px) {
@@ -26,6 +29,7 @@
 @media screen and (max-width:767px) {
     .place__paragraphs {
         max-width: 288px;
-        justify-self: center;
+        margin-left: 16px;
+        /* justify-self: center; */
     }
 }

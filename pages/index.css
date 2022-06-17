@@ -35,6 +35,7 @@
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__images/place__images.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__parapgraphs/place__paragraphs.css);
 @import url(../blocks/place/__title/place__title.css);

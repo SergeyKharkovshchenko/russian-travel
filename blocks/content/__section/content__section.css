@@ -10,3 +10,9 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width:767px) {
+    .content__section {
+        margin: 0;
+    }
+}
