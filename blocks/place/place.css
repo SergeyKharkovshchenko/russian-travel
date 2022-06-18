@@ -26,6 +26,7 @@
         grid-template-columns: 380px minmax(auto, 368px);
         max-width: 720px;
         column-gap: 28px;
+        margin: 0 auto 73px auto;
     }
 }
 

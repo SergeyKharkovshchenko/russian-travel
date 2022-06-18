@@ -5,6 +5,12 @@
     padding: 0;
     align-self: end;
     max-width: fit-content;
-    margin-left: 16px;
+    
 }
 
+
+@media screen and (max-width:767px) {
+    .place__website {
+        margin-left: 16px;
+    }
+}

@@ -10,3 +10,14 @@
     }
 }
 
+@media screen and (max-width:1023px) {
+    .page__content {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page__content {
+        margin-bottom: 48px;
+    }
+}
