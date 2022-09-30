@@ -2,11 +2,9 @@
 # Проект: Путешествие по России
 
 
-**Description**
-**Описание**
+**Description** / **Описание**
 
-Travel around Russia - training HTML/CSS.
-Проект о путешествии по России.
+Travel around Russia - training HTML,CSS / Проект о путешествии по России.
 
 https://sergeykharkovshchenko.github.io/russian-travel/
 
